@@ -25,6 +25,7 @@ def a2():
 #3번째 수업!
 
 # 일반리스트 버튼출력
+# html에서 for문을 사용해보자!
 @app.route('/a', methods=['GET'])
 def a():
     numbers = [0,1,2,3,4,5,6,7,8,9]
