@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IoT Door Lock System</title>
+    <style>
+      div {
+        margin-left:40px;
+        margin-top:10px;
+      }
+      input {
+        height: 100px;width: 170px;font-size:45px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <form action="/e" method="get">
+        {% for number in numbers %}
+          <input type="submit" value={{number}} name="number"/>
+        {% endfor %}
+      </form>
+    </div>
+  </body>
+</html>
